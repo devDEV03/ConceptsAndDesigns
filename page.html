@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Concepts & Designs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Crimson+Pro:wght@600&display=swap" rel="stylesheet">
+    <style>
+        /* Blinking effect for the "Enter the styles with elegance" text */
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Animation for falling effect */
+        @keyframes fall {
+            0% {
+                transform: translateY(-100%) scale(0.8) rotate(-10deg);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(0) scale(1) rotate(0deg);
+            }
+        }
+
+        /* Blinking animation for Enter text */
+        .animate-blink {
+            animation: blink 1.5s infinite;
+        }
+    </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Crimson Pro', serif; font-weight: 200;" class="h-screen w-screen bg-slate-900 flex items-center justify-center overflow-hidden">
+
+    <!-- Main Section -->
+    <div class="relative w-full h-full flex items-center justify-center overflow-hidden">
+        <!-- Welcome Text Above the Images -->
+        <div class="absolute w-full text-center top-16">
+            <h1 class="text-5xl md:text-7xl tracking-wide  text-white leading-tight">
+                Welcome to <br>
+                <span class="text-white">Concepts & Designs</span>
+            </h1>
+        </div>
+
+        <!-- Enter Blinking Text (Clickable) -->
+        <div class="absolute w-full text-center top-[35%]">
+            <a href="about.html" class="text-lg md:text-2xl  text-white animate-blink cursor-pointer">
+                Enter the styles with elegance
+            </a>
+        </div>
+
+        <!-- Image Section (Aligned in One Line) -->
+        <div class="absolute w-full flex justify-center items-center top-[50%] space-x-5">
+            <!-- Image 1 -->
+            <div class="animate-[fall_2s_ease-in-out_0.2s]">
+                <img src="./photos/10b5ec7c-04e6-45e9-8b63-9712e61dea6c.jpg" alt="Photo 1" class="w-80 h-80 object-cover shadow-lg">
+            </div>
+            <!-- Image 2 -->
+            <div class="animate-[fall_2s_ease-in-out_0.4s]">
+                <img src="./photos/7cb5aade-7f54-4f07-8965-b2c64cc5eaf9.jpg" alt="Photo 2" class="w-80 h-80 object-cover shadow-lg">
+            </div>
+            <!-- Image 3 -->
+            <div class="animate-[fall_2s_ease-in-out_0.6s]">
+                <img src="./photos/Peel and Stick Wall Moulding Kit, Pre-cut Paintable White Wall Panels for Modern Home Decor, Custom Design, Water Damage Resistant - Etsy.jpg" alt="Photo 3" class="w-80 h-80 object-cover shadow-lg">
+            </div>
+            <!-- Image 4 -->
+            <div class="animate-[fall_2s_ease-in-out_0.8s]">
+                <img src="./photos/Wooden Bed Design Modern Simple Indian.jpg" alt="Photo 4" class="w-80 h-80 object-cover shadow-lg">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

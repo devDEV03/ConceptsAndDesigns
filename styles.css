@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Space Grotesk", serif;
+  color: #333;
+}
+
+.header {
+  background: white;
+  color: black;
+  padding: 1rem 2rem;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+}
+
+.logoClass {
+  display: flex;
+  padding-block-start: 10px 0px;
+}
+
+.logoClass p{
+    margin: auto 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.cta-button {
+  padding: 0.5rem 1rem;
+  background: #ff4500;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logoImg {
+  width: 60px;
+  height: 60px;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #f0f0f0;
+}
+
+.hero-button {
+  padding: 0.7rem 1.5rem;
+  background: #0047ab;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.services,
+.about,
+.contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: rgba(240, 240, 246, 1);
+  padding: 50px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: 20px auto;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rating-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rating-item p {
+  margin-top: 0px;
+  font-size: 10px;
+  color: #777;
+  width: 100px;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.quick-links h4 {
+  margin-bottom: 15px;
+}
+
+.portfolio-links h4 {
+  margin-bottom: 15px;
+}
+
+.connect h4 {
+  margin-bottom: 15px;
+}
+
+.connect a {
+  text-decoration: none;
+}
+.connect i {
+  font-size: 40px;
+  color: black;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin: 10px auto 0px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.footer-links .portfolio-links {
+  width: 200px;
+}
+
+.footer-content ul li a:hover {
+  color: #ffa500;
+}
+
+.connect i:hover {
+  color: #ffa500;
+}
+
+.carousel-container {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+}
+.carousel-slide {
+  display: none;
+  text-align: center;
+}
+.carousel-slide.active {
+  display: block;
+}
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+#prev {
+  left: 10px;
+}
+#next {
+  right: 10px;
+}
+
+.owl-carousel {
+  margin: 0px auto;
+}
+
+.owl-carousel span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #e8c462 !important;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: opacity 200ms ease;
+  -moz-transition: opacity 200ms ease;
+  -ms-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+.owl-carousel .active span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #ffa500 !important;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: opacity 200ms ease;
+  -moz-transition: opacity 200ms ease;
+  -ms-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+.mainImage{
+    width: 100%;
+    background-image: url('/cd3.webp');
+    display: flex;
+    justify-items: center;
+}
