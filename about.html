@@ -6,40 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Concepts And Designs</title>
 <link rel="stylesheet" href="styles.css">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-
+<link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body style="font-family: 'Crimson Pro', serif; font-weight: 200;">
-    <header class="header">
-        <div class="logoClass">
-            <img src="./cdLogo.jpg" class="logoImg">
-            <p>Concepts and Designs</p>
-        </div>
-            <ul class="nav-links flex">
-                <li><a href="#">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#testimonial">Testimonial</a></li>
-            </ul>
-    </header>
+<body class="font-family: 'Crimson Pro', serif; font-weight: 200; bg-slate-900">
 
-    <section class="headerSection text-center mb-10">
+    <header class="header bg-black text-white rounded-full mx-5 mt-5">
+        <div class="logoClass">
+          <img src="./photos/cdLogo.jpg" class="logoImg" />
+          <p>Concepts and Designs</p>
+        </div>
+        <ul class="nav-links flex">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+        </ul>
+      </header>
+  
+
+    <section class="headerSection text-center my-10 text-white">
         <div class="flex flex-col gap-4">
             <h1 class="text-5xl font-bold">About</h1>
             <p class="text-lg">Concepts And Designs</p>
         </div>
     </section>
 
-    <section class="jaanvi-description-section bg-pink-100">
+    <section class="jaanvi-description-section bg-black text-white">
         <div class="flex w-full">
             <div class="w-1/2 p-12">
-                <img src="./jaanviImage.avif" class=" py-10 m-auto w-1/2 h-1/2">
+                <img src="./photos/jaanviImage.avif" class="py-10 m-auto w-1/2 h-full">
             </div>
             <div class=" w-1/2 p-10 gap-4 py-10">
                 <h1 class="font-bold text-2xl">Jaanvi Singhal</h1>
@@ -49,16 +53,16 @@
         </div>
     </section>
 
-    <section class="company-description-section p-20">
+    <section class="company-description-section p-20 text-white">
         <p class="mx-auto text-lg">
             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
         </p>
     </section>
 
-    <section class="siddhanth-description-section bg-pink-100">
+    <section class="siddhanth-description-section bg-black text-white">
         <div class="flex w-full">
             <div class="w-1/2 p-12">
-                <img src="./siddhanthBhaiya.jpg" class=" py-10 m-auto w-1/2 h-1/2">
+                <img src="./photos/siddhanthBhaiya.jpg" class=" py-10 m-auto w-1/2 h-full">
             </div>
             <div class=" w-1/2 p-10 gap-4 py-10">
                 <h1 class="font-bold text-2xl">Siddhanth Agarwal</h1>
@@ -67,41 +71,48 @@
             </div>
         </div>
     </section>
+
+    <section class="company-description-section p-20 text-white">
+      <p class="mx-auto text-lg">
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+      </p>
+  </section>
     
 
-    <footer>
+    <footer class="text-white bg-black">
         <div class="footer-container">
-            <div class="footer-content">
-
-                <div class="logoClass">
-                    <img src="./cdLogo.jpg" class="logoImg">
-                    <p>Concepts and Designs</p>
-                </div>
-                <div class="quick-links">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="skills.html">Services</a></li>
-                            <li><a href="education.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="certifications.html">Testimonial</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="connect">
-                        <h4>Connect</h4>
-                        <ul>
-                            <a href="https://github.com/devDEV03"><li><i class="ri-justdial-fill"></i></li></a>
-                            <a href="https://www.linkedin.com/in/dev-singhal-602026230/"><li><i class="ri-linkedin-fill"></i></li></a>
-                            <a href="https://x.com/DevBoiz26"><li><i class="ri-instagram-fill"></i></li></a>
-                        </ul>
-                    </div>
+          <div class="footer-content">
+            <div class="logoClass">
+              <img src="./photos/cdLogo.jpg" class="logoImg" />
+              <p>Concepts and Designs</p>
             </div>
-            <div class="footer-bottom">
-                <p>© 2024 Copyright, All Right Reserved</p>
+            <div class="quick-links text-white">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Services</a></li>
+                <li><a href="education.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="certifications.html">Testimonial</a></li>
+              </ul>
             </div>
+  
+            <div class="connect">
+              <h4>Connect</h4>
+              <ul>
+                <a href="https://www.linkedin.com/in/dev-singhal-602026230/"
+                  ><li><i class="ri-linkedin-fill text-white"></i></li
+                ></a>
+                <a href="https://x.com/DevBoiz26"
+                  ><li><i class="ri-instagram-fill text-white"></i></li
+                ></a>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© 2024 Copyright, All Right Reserved</p>
+          </div>
         </div>
-    </footer>
-    
+      </footer>
 </body>
 </html>

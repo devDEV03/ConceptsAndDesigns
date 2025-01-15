@@ -8,7 +8,6 @@
     padding: 50px;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgb(245, 237, 230);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -20,23 +19,20 @@
 
 .contact-info h1 {
     font-size: 2rem;
-    color: #333;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .contact-info p {
     margin: 10px 0;
     font-size: 1rem;
-    color: #555;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 .contact-info a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
+    color: white;
     transition: color 0.3s;
 }
 
@@ -47,7 +43,7 @@
 .contact-info h2 {
     margin-top: 30px;
     font-size: 1.5rem;
-    color: #333;
+    
 }
 
 .social-links {
@@ -58,7 +54,6 @@
 }
 
 .social-links a {
-    text-decoration: none;
     font-size: 1rem;
     display: flex;
     align-items: center;
